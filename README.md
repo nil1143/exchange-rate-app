@@ -1,6 +1,5 @@
 # currency-check
 
-<img class="items-center" src="/exchange-rate.png">
 
 Check what's the exchange rate on your currency!
 
@@ -12,3 +11,5 @@ Check what's the exchange rate on your currency!
 <h4>-JS</h4>
 <h4>-API</h4>
 
+
+<img class="items-center" src="/exchange-rate.png">
