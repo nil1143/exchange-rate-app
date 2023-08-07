@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/08ba1e35c6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:200, 400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rate exchange</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Currency rate app</h1>
+        <br>
+
+        <div class="app-body">
+            <div class="section-left">
+                <input  type="number" class="amount-one" value="1">
+                <select id="currency-one">
+                    <option value="PLN" selected>PLN</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="CHF">CHF</option>
+                </select>
+            </div>
+
+                <button class="swap">
+                    <i class="fas fa-retweet"></i>
+                </button>
+            
+            <div class="section-right">
+                <input type="number" class="amount-two" disabled>
+                <select id="currency-two">
+                    <option value="PLN">PLN</option>
+                    <option value="USD" selected>USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="CHF">CHF</option>
+                </select>
+            </div>
+            
+        </div>
+        <p class="rate-info"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
