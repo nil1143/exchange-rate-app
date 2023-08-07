@@ -6,7 +6,7 @@
 
 <h4>API fetched from https://exchangerate.host/#/</h4>
 <br>
-Technology used:
+Technology used:<br>
 HTML<br>
 -CSS<br>
 -JS<br>
