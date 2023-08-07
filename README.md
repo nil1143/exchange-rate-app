@@ -10,9 +10,7 @@ Technology used:<br>
 HTML<br>
 -CSS<br>
 -JS<br>
--API
-<br>
-Live here: https://nil1143.github.io/exchange-rate-app/
-<br>
+-API<br>
+Live here: https://nil1143.github.io/exchange-rate-app/<br>
 <img class="items-center" src="/exchange-rate.png">
 
