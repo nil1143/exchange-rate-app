@@ -7,9 +7,9 @@
 <h4>API fetched from https://exchangerate.host/#/</h4>
 <br>
 Technology used:
-HTML
--CSS
--JS
+HTML<br>
+-CSS<br>
+-JS<br>
 -API
 <br>
 Live here: https://nil1143.github.io/exchange-rate-app/
