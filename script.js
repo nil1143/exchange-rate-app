@@ -17,7 +17,7 @@ const calculate = () => {
 
         const rate = data.info.rate
         rateInfo.textContent = `${amountOne.value} ${currency1} = ${amountTwo.value} ${currency2}`;
-        amountTwo.value = (amountOne.value * rate).toFixed(2)
+        amountTwo.value = (amountOne.value * rate).toFixed(1)
     } )
 }
 
