@@ -3,8 +3,10 @@ const amountOne = document.querySelector('.amount-one')
 const currencyTwo = document.querySelector('#currency-two')
 const amountTwo = document.querySelector('.amount-two')
 const swapBtn = document.querySelector('.swap')
-const rateInfo = document.querySelector('.rate-info')
 
+
+const currency1 = currencyOne.value;
+const currency2 = currencyTwo.value;
 
 const calculate = () => { 
   
@@ -12,11 +14,9 @@ const calculate = () => {
     .then(res => res.json())
     .then(data => {
 
-        const currency1 = currencyOne.value;
-        const currency2 = currencyTwo.value;
 
         const rate = data.info.rate
-        rateInfo.textContent = `${amountOne.value} ${currency1} = ${amountTwo.value} ${currency2}`;
+
         amountTwo.value = (amountOne.value * rate).toFixed(2)
     } )
 }
