@@ -52,7 +52,7 @@ body {
 .app-body input {
     margin-bottom: 10px;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .app-body input, .app-body select {
@@ -64,7 +64,7 @@ body {
 
 .app-body select {
     padding: 10px 20px;
-    font-size: 26px;
+    font-size: 20px;
     cursor: pointer;
 }
 
