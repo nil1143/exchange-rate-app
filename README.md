@@ -1,6 +1,6 @@
 # currency-check
 
-<img class="items-center" src="/exchange rate.png">
+<img class="items-center" src="/exchange-rate.png">
 
 Check what's the exchange rate on your currency!
 
